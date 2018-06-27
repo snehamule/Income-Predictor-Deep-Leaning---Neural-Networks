@@ -56,3 +56,8 @@ Download Book-Crossing Dataset  from [Adult UCI dataset](https://archive.ics.uci
 ```
 	python start_page.py
 ```
+5. To run same program using scikit learn :
+```
+     python scitkit_learn_backpropogation_algo.py
+
+```
