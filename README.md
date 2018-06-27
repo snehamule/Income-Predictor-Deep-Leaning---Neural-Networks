@@ -43,18 +43,18 @@ python -version
 
 ## Dataset Download :<br />
 This recommendation system use  Book-Crossing Dataset.
-Download Book-Crossing Dataset  from [Adult UCI dataset](https://archive.ics.uci.edu/ml/datasets/adult).  
+Download Adult Dataset from UCI dataset [Adult UCI dataset](https://archive.ics.uci.edu/ml/datasets/adult).  
 
 ## Run program : <br />
 1. Download code from git  using  git clone .
 2. Place downloaded dataset files in the same folder
 3. For Process the Data run command 
 ```
-	python process.py
+	python process_data.py
 ```	
-4. To start a recommendation system run command 
+4. To run backpropogation algorithm, run command 
 ```
-	python start_page.py
+	python backPropogation_algorithm py
 ```
 5. To run same program using scikit learn :
 ```
