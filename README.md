@@ -6,34 +6,53 @@ To verify accuracy, build a same project by using scikit-learn library with same
 Accuracy for backpropogation algorithm : 93.25%
 Accuracy for Scikit Learn algorithm : 95.78%
 
-
-## Technology used: <br />
-Java , Java swing <br />
+## Technology / libraries used: <br />
+Python, Scikit learn, Panda, Numpy
 
 ## Setup required:<br />
-Java version: 1.8 or greater<br />
-Database : Oracle database 10.g or above<br />
-External jars : json-simple-1.1.jar
+python version: 3 or greater<br />
+Libraries : ScikitLearn, Panda,Numpy
 
 
-## Download json-simple-1.1.jar <br />
-In this project Json-simple is used to parse json file. 
-Download json-simple-1.1 [Downalod Json Simple-1.1](http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.htm)
+## Install python <br />
+If python is not installed then need to install python:<br />
+<br />
+**For  osx operating system (mac)**<br />
+	python get-pip.py 
+
+**For windows operating system**<br />
+	refer steps from [windows python installation steps](https://docs.python.org/3/using/windows.html).
+	
+
+## Check python version:
+python -version
 
 
-## Dataset :<br />
-This application used dataset which Yelp.com has announced the “Yelp Dataset Challenge”. It contains 42K businesses, 252K users, and 1.1M reviews. Data folder conatins business.json, rerview.json, user.json,business_category.json files.
-User can also download those files from  [Yelp database challenge](https://www.yelp.com/dataset).  
+## Install Libraries<br /> 
+
+**For  osx operating system (mac)**<br />
+* Install Numpy : pip install numpy<br />
+* Install  Panada : pip install pandas<br />
+* Install  Scikitlearn: pip install scipy, scikit-learn<br />
+
+**For windows operating system**<br />
+* Install numpy : pip install numpy<br />
+* Install pandas : python -m pip install pandas<br />
+* Install  Scikitlearn: pip install -U scikit-learn<br />
+
+
+## Dataset Download :<br />
+This recommendation system use  Book-Crossing Dataset.
+Download Book-Crossing Dataset  from [Adult UCI dataset](https://archive.ics.uci.edu/ml/datasets/adult).  
 
 ## Run program : <br />
 1. Download code from git  using  git clone .
-2. Place downloaded dataset files in the same folder (Optional Step)
-3. For  compile java program 
+2. Place downloaded dataset files in the same folder
+3. For Process the Data run command 
 ```
-	javac MainPage.java
+	python process.py
 ```	
-4. To run java program 
+4. To start a recommendation system run command 
 ```
-	java MainPage
+	python start_page.py
 ```
-
