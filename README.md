@@ -2,9 +2,9 @@
 
 This project is implemented  3 layers backpropogation algorithm from scratch using python. 
 This project predict income for a adult (above 50 K or below 50K )using different parameters like age,place, education, number of years of experience etc. It uses tanh activation function in hidden layer, and softmax activation function in output layer.
-To verify accuracy, build a same project by using scikit-learn library with same dataset. 
-Accuracy for backpropogation algorithm : 93.25%
-Accuracy for Scikit Learn algorithm : 95.78%
+To verify accuracy, build a same project by using scikit-learn library with same dataset. <br />
+Accuracy for backpropogation algorithm : 93.25%<br />
+Accuracy for Scikit Learn algorithm : 95.78%<br />
 
 ## Technology / libraries used: <br />
 Python, Scikit learn, Panda, Numpy
