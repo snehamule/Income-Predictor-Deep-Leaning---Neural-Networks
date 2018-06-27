@@ -1,27 +1,39 @@
-# Income-Predictor-Machine-Learning---Neural-Network-
+# Income Predictor Application (Deep Learning - Neural Network)
 
-This project is implemented using backpropogation algorithm from scratch using python. 
-This project predict income for a adult (above 50 K or below 50K )using different parameters like age,place, education, number of years of experience etc. 
-
-Language used : python 3 and above
-Version : python 3 or abvove
-
-
-# Required libraries: 
-
-If you don't have Python on your computer, you can use the Anaconda Python for installation of the ython packages.
-
-libraries using :
-NumPy: Provides a fast numerical array structure and helper functions.
-pandas: Provides a DataFrame structure to store data in memory and work with it easily and efficiently.
-
-To make sure you have all of the packages you need, install them with conda:
-
-conda install numpy pandas scikit-learn matplotlib seaborn
-
-conda may ask you to update some of them if you don't have the most recent version. Allow it to do so.
+This project is implemented  3 layers backpropogation algorithm from scratch using python. 
+This project predict income for a adult (above 50 K or below 50K )using different parameters like age,place, education, number of years of experience etc. It uses tanh activation function in hidden layer, and softmax activation function in output layer.
+To verify accuracy, build a same project by using scikit-learn library with same dataset. 
+Accuracy for backpropogation algorithm : 93.25%
+Accuracy for Scikit Learn algorithm : 95.78%
 
 
-# The problem Statemet:
-This project is help to find effictive path from source to the destination . This project uses heuristic to find optimal way and give preference to Direction 
+## Technology used: <br />
+Java , Java swing <br />
+
+## Setup required:<br />
+Java version: 1.8 or greater<br />
+Database : Oracle database 10.g or above<br />
+External jars : json-simple-1.1.jar
+
+
+## Download json-simple-1.1.jar <br />
+In this project Json-simple is used to parse json file. 
+Download json-simple-1.1 [Downalod Json Simple-1.1](http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.htm)
+
+
+## Dataset :<br />
+This application used dataset which Yelp.com has announced the “Yelp Dataset Challenge”. It contains 42K businesses, 252K users, and 1.1M reviews. Data folder conatins business.json, rerview.json, user.json,business_category.json files.
+User can also download those files from  [Yelp database challenge](https://www.yelp.com/dataset).  
+
+## Run program : <br />
+1. Download code from git  using  git clone .
+2. Place downloaded dataset files in the same folder (Optional Step)
+3. For  compile java program 
+```
+	javac MainPage.java
+```	
+4. To run java program 
+```
+	java MainPage
+```
 
